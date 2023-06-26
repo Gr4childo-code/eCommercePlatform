@@ -1,4 +1,4 @@
-import { AboutUs } from '../components/Section/AboutUS/AboutUsSec';
+import { AboutUs } from '../components/Section/AboutUSSec/AboutUsSec';
 import Provides from '../components/Section/Provides/ProvidesSec';
 import Layout from '../components/global/Layout/Layout';
 import './App.scss';
