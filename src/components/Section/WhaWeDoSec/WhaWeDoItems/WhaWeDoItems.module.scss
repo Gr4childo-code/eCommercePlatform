@@ -1,0 +1,36 @@
+.container {
+  border-radius: 10px;
+  padding: 22px;
+  &:hover {
+    background-color: #1a1a3d;
+  }
+  &__img {
+    border-radius: 10px;
+    padding: 11px 14px;
+    margin: 0;
+    &.primary-shade-1 {
+      background-color: var(--primary-color-shade);
+    }
+    &.secondary-color-shade {
+      background-color: var(--secondary-color-shade);
+    }
+    &.accent1-color-shade {
+      background-color: var(--accent1-color-shade);
+    }
+    &.accent2-color-shade {
+      background-color: var(--accent2-color-shade);
+    }
+  }
+  &__title {
+    margin: 30px 0 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 180%;
+    font-weight: 400;
+    color: var(--white-color-shade1);
+  }
+}
