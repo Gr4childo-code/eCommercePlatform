@@ -1,0 +1,11 @@
+.header_wrapper {
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__buttons {
+  display: flex;
+  gap: 30px;
+}

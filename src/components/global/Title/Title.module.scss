@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  font-size: 1.4rem;
+  line-height: 180%;
+  color: var(--secondary-color);
+  background-color: var(--secondary-color-shade);
+  width: max-content;
+  padding: 7px 13px;
+}

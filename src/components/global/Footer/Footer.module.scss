@@ -1,0 +1,24 @@
+.footer {
+  margin-top: 190px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__links {
+    display: flex;
+    gap: 40px;
+    &__item {
+      font-size: 1.6rem;
+      line-height: 180%;
+      cursor: pointer;
+      list-style-type: none;
+      &__img {
+        &:hover {
+          filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(94deg) brightness(300%)
+            contrast(100%);
+        }
+      }
+    }
+  }
+}

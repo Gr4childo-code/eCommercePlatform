@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><canvas style="inset: 0px; pointer-events: none; position: fixed; z-index: 1000000000;" width="1920" height="658"></canvas><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Vite + React + TS_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React + TS</title>
+  <style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/components/Section/AboutUS/AboutUs.module.scss">._AboutUs_tr7jh_1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+}
+
+._left_tr7jh_8 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 60%;
+}
+._left__polygon1_tr7jh_14 {
+  position: absolute;
+  right: 0;
+  width: 40.636px;
+  height: 40.636px;
+  clip-path: polygon(19% 0, 17% 100%, 100% 50%);
+  background-color: #ff006e;
+}
+._left__topblolck_tr7jh_22 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  font-size: 1.4rem;
+  line-height: 180%;
+  color: var(--secondary-color);
+  background-color: var(--secondary-color-shade);
+  width: 250px;
+}
+._left__title_tr7jh_33 {
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 130%;
+}
+._left__subtitle_tr7jh_38 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 180%;
+  color: var(--white-color-shade2);
+}
+._left__sendEmail_tr7jh_44 {
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+  border: 1px solid var(--white-color-shade2);
+  padding: 0 22px;
+}
+._left__sendEmail__input_tr7jh_51 {
+  outline: none;
+  font-size: 1.3rem;
+  line-height: 180%;
+  background: transparent;
+  border: none;
+  margin: 10px;
+  padding: 15px;
+  width: 100%;
+  color: var(--white-color);
+}
+
+._right_tr7jh_63 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  flex-grow: 2;
+  position: relative;
+}
+._right__lightyellow_tr7jh_71 {
+  position: sticky;
+  border-radius: 50%;
+  background: rgba(255, 190, 11, 0.5);
+  width: 236.936px;
+  height: 236.936px;
+  filter: blur(49px);
+}
+._right__container_tr7jh_79 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+._right__container__blue_tr7jh_85, ._right__container__yellow_tr7jh_85 {
+  width: 550px;
+  height: 600px;
+  border-radius: 15px;
+}
+._right__container__blue_tr7jh_85 {
+  background-color: var(--secondary-color);
+}
+._right__container__yellow_tr7jh_85 {
+  background-color: var(--primary-color);
+  transform: rotate(-10deg);
+}
+._right__container__img_tr7jh_97 {
+  transform: rotate(10deg);
+  max-width: 100%;
+  max-height: 100%;
+}</style><style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/components/global/Buttons/Buttons.module.scss">._button_1wogh_1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 180%;
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+._button_1wogh_1._BGTransparent_1wogh_12 {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+}
+._button_1wogh_1._BGPrimary_1wogh_16 {
+  background: var(--primary-color);
+}
+._button_1wogh_1._BGSecondary_1wogh_19 {
+  background: var(--secondary-color);
+}
+._button_1wogh_1._CLTransparent_1wogh_22 {
+  color: #0e0e2c;
+}
+._button_1wogh_1._CLWhite_1wogh_25 {
+  color: var(--white-color);
+}
+._button_1wogh_1._CLPrimary_1wogh_28 {
+  color: var(--primary-color);
+}</style><style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/components/global/Logo/Logo.module.scss"></style><style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/components/global/Nav/Nav.module.scss">._nav_link_crc1h_1 {
+  display: flex;
+  gap: 53px;
+}
+._nav_link_item_crc1h_5 {
+  font-size: 1.6rem;
+  line-height: 180%;
+  color: var(--white-color);
+  cursor: pointer;
+  list-style-type: none;
+}
+._nav_link_item_crc1h_5:hover {
+  text-decoration: underline;
+}</style><style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/components/global/Header/Header.module.scss">._header_wrapper_17wah_1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+._header__buttons_17wah_8 {
+  display: flex;
+  gap: 30px;
+}</style><style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/components/global/Footer/Footer.module.scss">._footer_1ivww_1 {
+  margin-top: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+._footer__links_1ivww_7 {
+  display: flex;
+  gap: 40px;
+}
+._footer__links__item_1ivww_11 {
+  font-size: 1.6rem;
+  line-height: 180%;
+  cursor: pointer;
+  list-style-type: none;
+}
+._footer__links__item__img_1ivww_17:hover {
+  filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(94deg) brightness(300%) contrast(100%);
+}</style><style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/components/global/Layout/Layout.module.scss">._Layout_wrapper_1s1qp_1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}</style><style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/app/App.scss">#root {
+  max-width: 100vw;
+  height: 100%;
+  margin: 0 auto;
+  background: #0e0e2c;
+  padding: 0 130px;
+  color: var(--white-color);
+}</style><style type="text/css" data-vite-dev-id="D:/Рабочий стол/eCommercePlatform/src/styles/index.scss">
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+:root {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 10px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --primary-color: #ffbe0b;
+  --primary-color-shade: #3e3125;
+  --secondary-color: #3a86ff;
+  --secondary-color-shade: #172656;
+  --accent1-color: #ff006e;
+  --accent1-color-shade: #3e0b39;
+  --accent2-color: #fb5607;
+  --accent2-color-shade: #3d1c25;
+  --accent3-color: #3d1c25;
+  --white-color: #ffffff;
+  --white-color-shade1: #868695;
+  --white-color-shade2: #626276;
+}
+header {
+  flex: 0 0 auto;
+}
+main {
+  flex: 1 0 auto;
+}
+footer {
+  flex: 0 0 auto;
+}</style></head>
+  <body>
+    <div id="root"><div class="_Layout_wrapper_1s1qp_1"><header class="_header_wrapper_17wah_1"><div><img src="./Vite + React + TS_files/Logo.svg" alt="Logo"></div><nav><ul class="_nav_link_crc1h_1"><li class="_nav_link_item_crc1h_5">About</li><li class="_nav_link_item_crc1h_5">Product</li><li class="_nav_link_item_crc1h_5">Service</li><li class="_nav_link_item_crc1h_5">Contact</li></ul></nav><div class="_header__buttons_17wah_8"><button class="_button_1wogh_1 _BGTransparent_1wogh_12 _CLPrimary_1wogh_28">Sign in</button><button class="_button_1wogh_1 _BGPrimary_1wogh_16 _CLTransparent_1wogh_22">Try Free </button></div></header><main><section class="_AboutUs_tr7jh_1"><div class="_left_tr7jh_8"><div class="_left__topblolck_tr7jh_22"><span>100% SATISFIED GUARANTEE</span></div><h1 class="_left__title_tr7jh_33">Power up your shopify products</h1><h2 class="_left__subtitle_tr7jh_38">More than 90,000+ companies trust our business. Get help from a dedicated shopify developer today.</h2><div class="_left__sendEmail_tr7jh_44"><img src="./Vite + React + TS_files/Email.svg" alt="Email Icon"><input type="text" placeholder="Your email adress" class="_left__sendEmail__input_tr7jh_51"><button class="_button_1wogh_1 _BGPrimary_1wogh_16 _CLTransparent_1wogh_22">Sigh In</button></div><div><div></div><div></div></div></div><div class="_right_tr7jh_63"><div class="_right__lightyellow_tr7jh_71"></div><div class="_right__container_tr7jh_79"><div class="_right__container__blue_tr7jh_85"><div class="_right__container__yellow_tr7jh_85"><img src="./Vite + React + TS_files/aboutUSMan.svg" alt="AboutUsMan" class="_right__container__img_tr7jh_97"></div></div></div></div></section></main><footer class="_footer_1ivww_1"><div><img src="./Vite + React + TS_files/Logo.svg" alt="Logo"></div><nav><ul class="_nav_link_crc1h_1"><li class="_nav_link_item_crc1h_5">About</li><li class="_nav_link_item_crc1h_5">Product</li><li class="_nav_link_item_crc1h_5">Service</li><li class="_nav_link_item_crc1h_5">Contact</li></ul></nav><ul class="_footer__links_1ivww_7"><li class="_footer__links__item_1ivww_11"><img src="./Vite + React + TS_files/Facebook.svg" alt="Facebook" class="_footer__links__item__img_1ivww_17"></li><li class="_footer__links__item_1ivww_11"><img src="./Vite + React + TS_files/Twitter.svg" alt="Twitter" class="_footer__links__item__img_1ivww_17"></li><li class="_footer__links__item_1ivww_11"><img src="./Vite + React + TS_files/Instagram.svg" alt="Instagram" class="_footer__links__item__img_1ivww_17"></li><li class="_footer__links__item_1ivww_11"><img src="./Vite + React + TS_files/Linkedin.svg" alt="LinkedIn" class="_footer__links__item__img_1ivww_17"></li></ul></footer></div></div>
+    <script type="module" src="./Vite + React + TS_files/main.tsx"></script>
+  
+
+</body></html>

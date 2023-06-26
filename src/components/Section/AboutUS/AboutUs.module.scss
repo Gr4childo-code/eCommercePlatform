@@ -1,0 +1,112 @@
+.AboutUs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+}
+.left {
+  display: flex;
+
+  flex-direction: column;
+  position: relative;
+  width: 60%;
+  &__polygon1 {
+    position: absolute;
+    right: 0;
+    width: 40.636px;
+    height: 40.636px;
+    clip-path: polygon(19% 0, 17% 100%, 100% 50%);
+    background-color: #ff006e;
+  }
+
+  &__title {
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  &__subtitle {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 180%;
+
+    color: var(--white-color-shade2);
+  }
+  &__sendEmail {
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    border: 1px solid var(--white-color-shade2);
+    padding: 0 22px;
+    &__input {
+      outline: none;
+      font-size: 1.3rem;
+      line-height: 180%;
+      background: transparent;
+      border: none;
+      margin: 10px;
+      padding: 15px;
+      width: 100%;
+      color: var(--white-color);
+    }
+  }
+  &__advantage {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    &__info {
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 15px;
+        line-height: 180%;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  flex-grow: 2;
+  position: relative;
+
+  &__lightyellow {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    border-radius: 50%;
+    background: rgba(255, 190, 11, 0.5);
+    width: 236.936px;
+    height: 236.936px;
+    filter: blur(49px);
+  }
+  &__container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    &__blue,
+    &__yellow {
+      width: 550px;
+      height: 600px;
+      border-radius: 15px;
+    }
+    &__blue {
+      background-color: var(--secondary-color);
+    }
+    &__yellow {
+      background-color: var(--primary-color);
+      transform: rotate(-10deg);
+    }
+
+    &__img {
+      transform: rotate(10deg);
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
