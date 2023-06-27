@@ -31,6 +31,7 @@ export const AboutUs = () => {
 
       <div className={styles.right}>
         <div className={styles.right__lightyellow} />
+        <div className={styles.right__lightpurple} />
         <div className={styles.right__container}>
           <div className={styles.right__container__blue}>
             <div className={styles.right__container__yellow}>

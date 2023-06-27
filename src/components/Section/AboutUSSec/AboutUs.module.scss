@@ -54,15 +54,24 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  flex-grow: 2;
-  position: relative;
-
-  &__lightyellow {
-    position: absolute;
-    bottom: 0;
+  &__lightpurple {
     z-index: 3;
+
+    position: absolute;
+    top: 300px;
+    right: 0;
+    width: 117.579px;
+    height: 117.579px;
     border-radius: 50%;
-    background: rgba(255, 190, 11, 0.5);
+    background: rgb(131, 56, 236);
+    filter: blur(49px);
+  }
+  &__lightyellow {
+    z-index: 3;
+    position: absolute;
+    transform: translate(10px, 200px);
+    border-radius: 50%;
+    background: rgba(255, 190, 11);
     width: 236.936px;
     height: 236.936px;
     filter: blur(49px);
