@@ -31,24 +31,7 @@
 
     color: var(--white-color-shade2);
   }
-  &__sendEmail {
-    display: flex;
-    align-items: center;
-    border-radius: 18px;
-    border: 1px solid var(--white-color-shade2);
-    padding: 0 22px;
-    &__input {
-      outline: none;
-      font-size: 1.3rem;
-      line-height: 180%;
-      background: transparent;
-      border: none;
-      margin: 10px;
-      padding: 15px;
-      width: 100%;
-      color: var(--white-color);
-    }
-  }
+
   &__advantage {
     margin-top: 35px;
     display: flex;

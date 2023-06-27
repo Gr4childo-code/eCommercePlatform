@@ -2,9 +2,9 @@ import AboutUsMan from '../../../assets/aboutUSMan.svg';
 import Email from '../../../assets/Email.svg';
 import Check from '../../../assets/Check.svg';
 
-import { Buttons } from '../../global/Buttons/Buttons';
 import styles from './AboutUs.module.scss';
 import { Title } from '../../global/Title/Title';
+import { Input } from '../../global/Input/Input';
 export const AboutUs = () => {
   return (
     <section className={styles.AboutUs}>
@@ -17,13 +17,7 @@ export const AboutUs = () => {
           developer today.
         </h2>
         <div className={styles.left__sendEmail}>
-          <img src={Email} alt='Email Icon' />
-          <input
-            type='text'
-            placeholder='Your email adress'
-            className={styles.left__sendEmail__input}
-          />
-          <Buttons color='CLTransparent' backgroundColor='BGPrimary' title='Sigh In' />
+          <Input placeholder='Your email address' icon={Email} textBtn='Sign up' />
         </div>
         <div className={styles.left__advantage}>
           <div className={styles.left__advantage__info}>
