@@ -43,8 +43,7 @@ export const ProductSec = () => {
                 SEO optimized, high Google work
               </p>
               <p className={styles.right__advantage__info__text}>
-                It is a long established fact that a reader will be distracted by the readable
-                content
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               </p>
             </div>
           </div>
