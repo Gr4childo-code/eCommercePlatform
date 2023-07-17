@@ -33,11 +33,11 @@ export const AboutUs = () => {
         <div className={styles.right__lightyellow} />
         <div className={styles.right__lightpurple} />
         <div className={styles.right__container}>
-          <div className={styles.right__container__blue}>
-            <div className={styles.right__container__yellow}>
-              <img src={AboutUsMan} alt='AboutUsMan' className={styles.right__container__img} />
-            </div>
-          </div>
+          <div className={styles.right__container__blue}> </div>
+
+          <div className={styles.right__container__yellow}> </div>
+
+          <img src={AboutUsMan} alt='AboutUsMan' className={styles.right__container__img} />
         </div>
       </div>
     </section>
