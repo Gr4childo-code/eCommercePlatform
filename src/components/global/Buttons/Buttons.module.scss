@@ -11,13 +11,13 @@
   border: none;
   cursor: pointer;
   &:hover {
-    border: 2px solid;
+    border: 2px;
   }
   &.BGTransparent {
     background: transparent;
     border: 1px solid var(--primary-color);
     &:hover {
-      border: 3px solid;
+      border: 3px;
     }
   }
   &.BGPrimary {
@@ -25,6 +25,7 @@
   }
   &.BGSecondary {
     background: var(--secondary-color);
+    border-radius: 5px;
   }
   &.CLTransparent {
     color: #0e0e2c;

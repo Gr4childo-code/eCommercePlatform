@@ -1,11 +1,12 @@
 import AboutUsMan from '../../../assets/aboutUSMan.svg';
 import Email from '../../../assets/Email.svg';
 import Check from '../../../assets/Check.svg';
-
+import Plan from '../../../assets/plan.svg';
 import styles from './AboutUs.module.scss';
 import { Title } from '../../global/Title/Title';
 import { Input } from '../../global/Input/Input';
 import { RectangleOrange, RectanglePink, RectangleYellow } from '../../global/Rectangle/Rectangle';
+import { Buttons } from '../../global/Buttons/Buttons';
 export const AboutUs = () => {
   return (
     <section className={styles.AboutUs}>
@@ -36,12 +37,16 @@ export const AboutUs = () => {
         <RectangleOrange />
         <div className={styles.right__lightpurple} />
         <div className={styles.right__container}>
+          <div className={styles.right__container__buyplan}>
+            <img src={Plan} alt={Plan} />
+            <p className={styles.title}>Make Progress</p>
+            <p className={styles.subtitle}> with opening plans</p>
+            <Buttons color='CLWhite' backgroundColor='BGSecondary' title='Buy plan' />
+          </div>
           <div className={styles.right__container__blue}>
             <RectanglePink />
           </div>
-
           <div className={styles.right__container__yellow}></div>
-
           <img src={AboutUsMan} alt='AboutUsMan' className={styles.right__container__img} />
         </div>
       </div>
