@@ -1,7 +1,7 @@
 import { H2title } from '../../global/H2title/H2title';
 import { Input } from '../../global/Input/Input';
 import styles from './ContactWithUsSec.module.scss';
-const ContactWithUsSec = () => {
+export const ContactWithUsSec = () => {
   return (
     <section className={styles.ContactWithUsSec}>
       <H2title title='Contact with us.' />
@@ -10,5 +10,3 @@ const ContactWithUsSec = () => {
     </section>
   );
 };
-
-export default ContactWithUsSec;

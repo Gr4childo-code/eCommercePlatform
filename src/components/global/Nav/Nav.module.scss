@@ -2,12 +2,11 @@
   display: flex;
   gap: 53px;
   &_item {
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 180%;
     color: var(--white-color);
-
     cursor: pointer;
-
+    font-weight: 500;
     list-style-type: none;
     &:hover {
       text-decoration: underline;

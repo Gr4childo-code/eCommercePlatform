@@ -1,0 +1,25 @@
+.orange {
+  background: #fb5607;
+  width: 13.471px;
+  height: 13.471px;
+  transform: rotate(30deg);
+  position: absolute;
+  bottom: 0;
+  right: 110px;
+}
+.yellow {
+  left: -83px;
+  background: #ffbe0b;
+  width: 32.484px;
+  height: 32.484px;
+  transform: rotate(-30.171deg);
+  position: absolute;
+}
+.pink {
+  transform: translateX(-90px);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: #ff006e;
+  clip-path: polygon(0 0, 22% 100%, 100% 29%);
+}

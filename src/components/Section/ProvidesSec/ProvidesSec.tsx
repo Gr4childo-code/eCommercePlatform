@@ -4,7 +4,7 @@ import { Title } from '../../global/Title/Title';
 import styles from './Provides.module.scss';
 import { ProvidesTitleAch } from './ProvidesTitleAch/ProvidesTitleAch';
 
-const Provides = () => {
+export const Provides = () => {
   return (
     <section className={styles.Provides}>
       <div className={styles.left}>
@@ -31,5 +31,3 @@ const Provides = () => {
     </section>
   );
 };
-
-export default Provides;

@@ -9,7 +9,7 @@ interface IProps {
   children: ReactNode;
 }
 
-const Layout = ({ children }: IProps) => {
+export const Layout = ({ children }: IProps) => {
   return (
     <div className={styles.Layout_wrapper}>
       <Header />
@@ -18,5 +18,3 @@ const Layout = ({ children }: IProps) => {
     </div>
   );
 };
-
-export default Layout;
