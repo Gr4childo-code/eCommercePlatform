@@ -71,6 +71,21 @@
     background: rgb(131, 56, 236);
     filter: blur(49px);
   }
+  .title {
+    margin: 10px 0 0 0;
+    color: #0e0e2c;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+  }
+  .subtitle {
+    margin: 0;
+    color: var(--white-color-shade2);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 180%;
+    padding-bottom: 21px;
+  }
   &__lightyellow {
     z-index: 3;
     position: absolute;
@@ -109,22 +124,48 @@
         width: 114px;
         height: 36px;
       }
-      .title {
-        margin: 10px 0 0 0;
-        color: #0e0e2c;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 180%;
+    }
+
+    &__services {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: absolute;
+      transform: translateY(-60px);
+      bottom: 0;
+      left: 0;
+      width: 438.639px;
+      height: 126.633px;
+      border-radius: 10px;
+      background: #fff;
+      z-index: 4;
+      &__cover {
+        transform: translate(5px, -19px);
+        z-index: 5;
+        width: 153.49px;
+        height: 163.622px;
+        background-color: #fb5607;
+        position: relative;
+        display: flex;
+        align-items: center;
       }
-      .subtitle {
-        margin: 0;
-        color: var(--white-color-shade2);
-        font-size: 11px;
-        font-weight: 400;
-        line-height: 180%;
-        padding-bottom: 21px;
+      &__img {
+        transform: translateY(-32px);
+        width: 153.117px;
+        height: 233.147px;
+      }
+      &__right {
+        transform: translateX(-20px);
+      }
+      &__play {
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        right: -20px;
       }
     }
+
     &__blue,
     &__yellow {
       width: 550px;
@@ -136,10 +177,11 @@
     &__blue {
       background-color: var(--secondary-color);
       z-index: 1;
-      transform: rotate(-10deg);
+      transform: translate(0, -30px) rotate(-15deg);
     }
     &__yellow {
       background-color: var(--primary-color);
+      transform: translate(10px, -20px);
       z-index: 2;
     }
 

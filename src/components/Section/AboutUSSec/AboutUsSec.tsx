@@ -1,7 +1,9 @@
-import AboutUsMan from '../../../assets/aboutUSMan.svg';
+import manAbout from '../../../assets/AboutUs/manAbout.svg';
+import womanAbout from '../../../assets/AboutUs/womanAbout.svg';
 import Email from '../../../assets/Email.svg';
 import Check from '../../../assets/Check.svg';
-import Plan from '../../../assets/plan.svg';
+import Play from '../../../assets/Play.svg';
+import Plan from '../../../assets/AboutUs/planAbout.svg';
 import styles from './AboutUs.module.scss';
 import { Title } from '../../global/Title/Title';
 import { Input } from '../../global/Input/Input';
@@ -47,7 +49,21 @@ export const AboutUs = () => {
             <RectanglePink />
           </div>
           <div className={styles.right__container__yellow}></div>
-          <img src={AboutUsMan} alt='AboutUsMan' className={styles.right__container__img} />
+          <img src={manAbout} alt={manAbout} className={styles.right__container__img} />
+          <div className={styles.right__container__services}>
+            <div className={styles.right__container__services__cover}>
+              <img
+                src={womanAbout}
+                alt={womanAbout}
+                className={styles.right__container__services__img}
+              />
+            </div>
+            <div className={styles.right__container__services__right}>
+              <p className={styles.title}>Margaret Philips</p>
+              <p className={styles.subtitle}>Watch our best services</p>
+            </div>
+            <img src={Play} alt={Play} className={styles.right__container__services__play} />
+          </div>
         </div>
       </div>
     </section>
