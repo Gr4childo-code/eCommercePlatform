@@ -1,4 +1,4 @@
-import { Buttons } from '../Buttons/Buttons';
+import { Buttons } from '@/components/global/Buttons/Buttons';
 
 import styles from './Input.module.scss';
 type InputComponent = {

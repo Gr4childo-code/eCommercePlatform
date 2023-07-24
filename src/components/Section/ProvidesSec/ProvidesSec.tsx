@@ -1,8 +1,9 @@
-import ProvidesSVG from '../../../assets/provideSec.svg';
-import { H2title } from '../../global/H2title/H2title';
-import { Title } from '../../global/Title/Title';
-import styles from './Provides.module.scss';
+import ProvidesSVG from '@/assets/provideSec.svg';
+import { H2title } from '@/components/global/H2title/H2title';
+import { Title } from '@/components/global/Title/Title';
 import { ProvidesTitleAch } from './ProvidesTitleAch/ProvidesTitleAch';
+
+import styles from './Provides.module.scss';
 
 export const Provides = () => {
   return (

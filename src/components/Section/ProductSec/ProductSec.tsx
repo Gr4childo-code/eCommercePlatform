@@ -1,8 +1,9 @@
-import { H2title } from '../../global/H2title/H2title';
-import { Title } from '../../global/Title/Title';
+import { H2title } from '@/components/global/H2title/H2title';
+import { Title } from '@/components/global/Title/Title';
+import Chair from '@/assets/ProductChair.svg';
+import Check from '@/assets/Check.svg';
+
 import styles from './ProductSec.module.scss';
-import Chair from '../../../assets/ProductChair.svg';
-import Check from '../../../assets/Check.svg';
 export const ProductSec = () => {
   return (
     <section className={styles.ProductSec}>

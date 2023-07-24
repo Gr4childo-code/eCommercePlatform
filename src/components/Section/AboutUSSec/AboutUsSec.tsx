@@ -1,14 +1,20 @@
-import manAbout from '../../../assets/AboutUs/manAbout.svg';
-import womanAbout from '../../../assets/AboutUs/womanAbout.svg';
-import Email from '../../../assets/Email.svg';
-import Check from '../../../assets/Check.svg';
-import Play from '../../../assets/Play.svg';
-import Plan from '../../../assets/AboutUs/planAbout.svg';
+import manAbout from '@/assets/AboutUs/manAbout.svg';
+import womanAbout from '@/assets/AboutUs/womanAbout.svg';
+import Email from '@/assets/Email.svg';
+import Check from '@/assets/Check.svg';
+import Play from '@/assets/Play.svg';
+import Plan from '@/assets/AboutUs/planAbout.svg';
+
+import { Title } from '@/components/global/Title/Title';
+import { Input } from '@/components/global/Input/Input';
+import {
+  RectangleOrange,
+  RectanglePink,
+  RectangleYellow
+} from '@/components/global/Rectangle/Rectangle';
+import { Buttons } from '@/components/global/Buttons/Buttons';
+
 import styles from './AboutUs.module.scss';
-import { Title } from '../../global/Title/Title';
-import { Input } from '../../global/Input/Input';
-import { RectangleOrange, RectanglePink, RectangleYellow } from '../../global/Rectangle/Rectangle';
-import { Buttons } from '../../global/Buttons/Buttons';
 export const AboutUs = () => {
   return (
     <section className={styles.AboutUs}>

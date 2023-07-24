@@ -1,17 +1,24 @@
-.CreativeProcess{
+.CreativeProcess {
   width: 100%;
   display: flex;
   // justify-content: space-around;
   padding-top: 150px;
   position: relative;
 }
-.left{  
+.left {
+  width: 40%;
   display: flex;
   flex-direction: column;
   position: relative;
+  .text {
+    font-size: 1.6rem;
+    line-height: 180%;
+    color: var(--white-color-shade2);
+  }
 }
-.right{
+.right {
   display: flex;
+  width: 60%;
   flex-direction: column;
   position: relative;
 }

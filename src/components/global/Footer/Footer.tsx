@@ -1,10 +1,10 @@
-import Logo from '../Logo/Logo';
-import Twitter from '../../../assets/Footer/Twitter.svg';
-import Instagram from '../../../assets/Footer/Instagram.svg';
-import Facebook from '../../../assets/Footer/Facebook.svg';
-import LinkedIn from '../../../assets/Footer/Linkedin.svg';
+import Logo from '@/components/global/Logo/Logo';
+import Twitter from '@/assets/Footer/Twitter.svg';
+import Instagram from '@/assets/Footer/Instagram.svg';
+import Facebook from '@/assets/Footer/Facebook.svg';
+import LinkedIn from '@/assets/Footer/Linkedin.svg';
 
-import { Nav } from '../Nav/Nav';
+import { Nav } from '@/components/global/Nav/Nav';
 import styles from './Footer.module.scss';
 export const Footer = () => {
   return (

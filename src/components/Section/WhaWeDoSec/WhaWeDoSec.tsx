@@ -1,11 +1,11 @@
-import { H2title } from '../../global/H2title/H2title';
-import { Title } from '../../global/Title/Title';
+import { H2title } from '@/components/global/H2title/H2title';
+import { Title } from '@/components/global/Title/Title';
 import { WhaWeDoItems } from './WhaWeDoItems/WhaWeDoItems';
 
-import Traffic from '../../../assets/WhatWeDo/Grow your traffic.svg';
-import ContentFSales from '../../../assets/WhatWeDo/Content for sales.svg';
-import Report from '../../../assets/WhatWeDo/Report.svg';
-import Conversion from '../../../assets/WhatWeDo/Conversion.svg';
+import Traffic from '@/assets/WhatWeDo/Grow your traffic.svg';
+import ContentFSales from '@/assets/WhatWeDo/Content for sales.svg';
+import Report from '@/assets/WhatWeDo/Report.svg';
+import Conversion from '@/assets/WhatWeDo/Conversion.svg';
 
 import styles from './WhaWeDoSec.module.scss';
 

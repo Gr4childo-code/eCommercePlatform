@@ -1,5 +1,6 @@
-import { H2title } from '../../global/H2title/H2title';
-import { Input } from '../../global/Input/Input';
+import { H2title } from '@/components/global/H2title/H2title';
+import { Input } from '@/components/global/Input/Input';
+
 import styles from './ContactWithUsSec.module.scss';
 export const ContactWithUsSec = () => {
   return (

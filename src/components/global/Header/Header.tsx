@@ -1,6 +1,6 @@
-import { Buttons } from '../Buttons/Buttons';
-import Logo from '../Logo/Logo';
-import { Nav } from '../Nav/Nav';
+import { Buttons } from '@/components/global/Buttons/Buttons';
+import Logo from '@/components/global/Logo/Logo';
+import { Nav } from '@/components/global/Nav/Nav';
 import styles from './Header.module.scss';
 
 export const Header = () => {
