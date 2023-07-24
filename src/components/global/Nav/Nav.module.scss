@@ -1,15 +1,23 @@
 .nav_link {
   display: flex;
-  gap: 53px;
+  gap: 20px;
   &_item {
-    font-size: 2rem;
-    line-height: 180%;
-    color: var(--white-color);
-    cursor: pointer;
-    font-weight: 500;
     list-style-type: none;
-    &:hover {
-      text-decoration: underline;
+    .link {
+      text-decoration: none;
+      font-size: 1.5rem;
+      line-height: 180%;
+      color: var(--white-color);
+      cursor: pointer;
+      font-weight: 500;
+      list-style-type: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .link.active {
+      color: var(--accent1-color);
     }
   }
 }
