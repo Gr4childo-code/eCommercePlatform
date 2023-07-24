@@ -1,0 +1,17 @@
+.CreativeProcess{
+  width: 100%;
+  display: flex;
+  // justify-content: space-around;
+  padding-top: 150px;
+  position: relative;
+}
+.left{  
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
