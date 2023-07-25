@@ -1,3 +1,5 @@
+@import '@/styles/media.scss';
+
 .orange {
   background: #fb5607;
   width: 13.471px;
@@ -22,4 +24,10 @@
   position: absolute;
   background: #ff006e;
   clip-path: polygon(0 0, 22% 100%, 100% 29%);
+}
+
+@include mq(Lphone) {
+  .yellow {
+    display: none;
+  }
 }

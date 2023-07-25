@@ -10,7 +10,7 @@ import { useEffect, useContext } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 export const Provides = () => {
-  const { ref, inView } = useInView({ threshold: 0.7 });
+  const { ref, inView } = useInView({ threshold: 0.5 });
   const { setInitialView } = useContext(AppContext);
 
   useEffect(() => {

@@ -3,6 +3,8 @@ import { BiMenu, BiMenuAltLeft } from 'react-icons/bi';
 import { AppContext } from '@/app/App';
 import styles from './Nav.module.scss';
 export const Nav = () => {
+  const { initialView } = useContext(AppContext);
+
   const [toggle, setToggle] = useState(false);
   const navLinks = [
     { id: 1, title: 'About', link: 'About' },
@@ -12,11 +14,15 @@ export const Nav = () => {
     { id: 5, title: 'Process', link: 'Process' },
     { id: 6, title: 'Contact', link: 'Contact' }
   ];
+
+  useEffect(() => {
+    console.log(initialView);
+  }, [initialView]);
   return (
     <nav className={styles.nav}>
-      {/* <div className={styles.open} onClick={() => setToggle(prev => !prev)}>
+      <div className={styles.open} onClick={() => setToggle(prev => !prev)}>
         {toggle ? <BiMenuAltLeft size={'30px'} /> : <BiMenu size={'30px'} />}
-      </div> */}
+      </div>
       <ul className={`${styles.nav_link} ${toggle ? styles.openNav : ''}`}>
         {navLinks.map(navLink => (
           <Links id={navLink.id} title={navLink.title} key={navLink.id} link={navLink.link} />

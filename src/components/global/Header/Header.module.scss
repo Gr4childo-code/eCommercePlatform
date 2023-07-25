@@ -5,7 +5,7 @@
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
-  z-index: 3;
+  z-index: 5;
   position: fixed !important;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -19,8 +19,7 @@
   .header_wrapper {
     max-width: 100%;
     width: 100%;
-    justify-content: start;
-
+    justify-content: flex-start;
     top: 0;
   }
 }

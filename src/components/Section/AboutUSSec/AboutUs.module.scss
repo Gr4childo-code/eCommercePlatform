@@ -210,6 +210,9 @@
 
     .right {
       display: none;
+      &__polygon1 {
+        display: none;
+      }
     }
   }
 }
