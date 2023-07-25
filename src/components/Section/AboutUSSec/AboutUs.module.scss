@@ -1,3 +1,5 @@
+@import '@/styles/media.scss';
+
 .AboutUs {
   width: 100%;
   display: flex;
@@ -190,6 +192,24 @@
       height: 825px;
       transform: translate(-20px, -70px);
       z-index: 3;
+    }
+  }
+}
+
+@include mq(Lphone) {
+  .left {
+    width: 100%;
+    &__title {
+      font-size: 3rem;
+    }
+  }
+  .AboutUs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+
+    .right {
+      display: none;
     }
   }
 }

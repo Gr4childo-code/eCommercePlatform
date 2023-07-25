@@ -1,8 +1,23 @@
+@import '@/styles/media.scss';
+
+.nav {
+  .open {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    &:hover {
+      color: var(--asccent1-color);
+    }
+  }
+}
 .nav_link {
   display: flex;
   gap: 20px;
+
   &_item {
     list-style-type: none;
+    // background-color: var(--primary-color);
+    border-radius: 10px;
     .link {
       text-decoration: none;
       font-size: 1.5rem;
@@ -15,9 +30,52 @@
         text-decoration: underline;
       }
     }
+  }
+  &_item.active {
+    animation: spinTop 1s ease-out;
+    transition-delay: 2s;
+    a {
+      font-size: 1.7rem;
+      transition-delay: 1s;
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+  }
+}
 
-    .link.active {
-      color: var(--accent1-color);
+.nav_link.openNav {
+  display: flex;
+  flex-direction: column;
+}
+@keyframes spinTop {
+  from {
+    transform: rotateX(180deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+@include mq(Lphone) {
+  .nav {
+    .open {
+      display: flex;
+    }
+  }
+  .nav_link {
+    // display: none;
+    &_item {
+      display: none;
+    }
+    &_item.active {
+      animation: spinTop 1s ease-out;
+      transition-delay: 2s;
+      display: block;
+      a {
+        font-size: 1.7rem;
+        transition-delay: 1s;
+        color: var(--primary-color);
+        font-weight: 600;
+      }
     }
   }
 }

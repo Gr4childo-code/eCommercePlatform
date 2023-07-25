@@ -1,6 +1,12 @@
+@import '@/styles/media.scss';
 .title {
   color: var(--white-color);
   font-size: 48px;
   font-weight: bold;
   line-height: 130%;
+}
+@include mq(Lphone) {
+  .title {
+    font-size: 20px;
+  }
 }

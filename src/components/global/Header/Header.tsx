@@ -8,10 +8,10 @@ export const Header = () => {
     <header className={styles.header_wrapper}>
       <Logo />
       <Nav />
-      <div className={styles.header__buttons}>
+      {/* <div className={styles.header__buttons}>
         <Buttons color='CLPrimary' backgroundColor='BGTransparent' title='Sign in' />
         <Buttons color='CLTransparent' backgroundColor='BGPrimary' title='Try Free ' />
-      </div>
+      </div> */}
     </header>
   );
 };

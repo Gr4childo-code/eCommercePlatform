@@ -1,6 +1,6 @@
+@import '@/styles/media.scss';
 .footer {
   margin-top: 190px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,6 +19,17 @@
             contrast(100%);
         }
       }
+    }
+  }
+}
+
+@include mq(Lphone) {
+  .footer {
+    .nav {
+      display: none;
+    }
+    &__links {
+      gap: 20px;
     }
   }
 }

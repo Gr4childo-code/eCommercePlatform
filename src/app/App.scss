@@ -1,7 +1,14 @@
+@import '@/styles/media.scss';
 #root {
   max-width: 1440px;
   height: 100%;
   margin: 0 auto;
-  padding: 0 130px;
+  // padding: 0 130px;
   color: var(--white-color);
+}
+
+@include mq(Lphone) {
+  #root {
+    padding: 0 20px;
+  }
 }

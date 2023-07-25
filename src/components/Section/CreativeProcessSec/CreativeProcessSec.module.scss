@@ -1,3 +1,4 @@
+@import '@/styles/media.scss';
 .CreativeProcess {
   width: 100%;
   display: flex;
@@ -39,5 +40,17 @@
       width: 541.827px;
       height: 734.633px;
     }
+  }
+}
+@include mq(Lphone) {
+  .CreativeProcess {
+    gap: 0;
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    display: none;
   }
 }

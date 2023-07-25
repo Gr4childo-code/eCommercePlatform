@@ -19,7 +19,7 @@ const CreativeProcessSec = () => {
   }, [inView]);
   return (
     <AnimationMotion>
-      <div className={styles.CreativeProcess}>
+      <div className={styles.CreativeProcess} id='Process' ref={ref}>
         <div className={styles.left}>
           <Title title='Creative Process' />
           <H2title title='Know your ads inside & out-perform' />

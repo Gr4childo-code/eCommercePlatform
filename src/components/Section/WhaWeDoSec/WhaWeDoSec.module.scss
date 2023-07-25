@@ -1,3 +1,5 @@
+@import '@/styles/media.scss';
+
 .WhaWeDoSec {
   width: 100%;
   display: flex;
@@ -21,4 +23,15 @@
   align-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+}
+
+@include mq(Lphone) {
+  .left,
+  .right {
+    width: 100%;
+    grid-template-columns: 200px 200px;
+  }
+  .WhaWeDoSec {
+    flex-direction: column;
+  }
 }

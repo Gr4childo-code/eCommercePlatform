@@ -7,6 +7,7 @@ import { Provides } from '@/components/Section/ProvidesSec/ProvidesSec';
 import { WhaWeDoSec } from '@/components/Section/WhaWeDoSec/WhaWeDoSec';
 import { Layout } from '@/components/global/Layout/Layout';
 import './App.scss';
+
 type ContextType = {
   initialView: string | null;
   setInitialView: React.Dispatch<React.SetStateAction<string | null>>;

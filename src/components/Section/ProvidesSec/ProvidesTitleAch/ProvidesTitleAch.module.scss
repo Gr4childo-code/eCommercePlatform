@@ -1,3 +1,5 @@
+@import '@/styles/media.scss';
+
 .Provides {
   width: 30%;
   &__title {
@@ -17,5 +19,12 @@
   }
   .CAccent2 {
     color: var(--accent2-color);
+  }
+}
+@include mq(Lphone) {
+  .Provides {
+    &__title {
+      font-size: 20px;
+    }
   }
 }

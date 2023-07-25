@@ -1,14 +1,26 @@
+@import '@/styles/media.scss';
 .header_wrapper {
   max-width: 1440px;
   width: calc(100% - 50px);
-  height: 150px;
-  margin-top: 30px;
+  padding-top: 30px;
   display: flex;
-  justify-content: space-around;
-  // align-items: center;
-  z-index: 2;
+  justify-content: space-between;
+  z-index: 3;
+  position: fixed !important;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .header__buttons {
   display: flex;
   gap: 30px;
+}
+
+@include mq(Lphone) {
+  .header_wrapper {
+    max-width: 100%;
+    width: 100%;
+    justify-content: start;
+
+    top: 0;
+  }
 }
