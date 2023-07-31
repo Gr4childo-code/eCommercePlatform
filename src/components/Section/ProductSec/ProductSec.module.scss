@@ -68,5 +68,17 @@
   }
   .right {
     width: 100%;
+    &__advantage {
+      margin-top: 30px;
+      gap: 20px;
+      &__info {
+        &__title {
+          font-size: 1.5rem;
+        }
+        &__text {
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
 }

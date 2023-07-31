@@ -5,6 +5,7 @@
   margin: 0 auto;
   // padding: 0 130px;
   color: var(--white-color);
+  position: relative;
 }
 
 @include mq(Lphone) {

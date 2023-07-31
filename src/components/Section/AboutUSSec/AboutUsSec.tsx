@@ -21,7 +21,9 @@ import AnimationMotion from '@/AnimationMotion/AnimationMotion';
 import styles from './AboutUs.module.scss';
 
 export const AboutUs = () => {
-  const { ref, inView } = useInView({ threshold: 1 });
+  const { ref, inView } = useInView({
+    threshold: 1
+  });
   const { setInitialView } = useContext(AppContext);
 
   useEffect(() => {
@@ -30,11 +32,11 @@ export const AboutUs = () => {
     } else {
       setInitialView(null);
     }
-  }, [inView]);
+  }, [inView, setInitialView]);
 
   const blockAnimations = {
     hidden: {
-      x: 100,
+      x: 0,
       y: 50,
       opacity: 0
     },

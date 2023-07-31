@@ -29,7 +29,12 @@
   .left,
   .right {
     width: 100%;
-    grid-template-columns: 200px 200px;
+  }
+  .right {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
   }
   .WhaWeDoSec {
     flex-direction: column;

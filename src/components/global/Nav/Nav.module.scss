@@ -1,6 +1,7 @@
 @import '@/styles/media.scss';
 
 .nav {
+  z-index: 5;
   .open {
     display: none;
     font-size: 2rem;
@@ -13,6 +14,7 @@
 .nav_link {
   display: flex;
   gap: 20px;
+  z-index: 5;
 
   &_item {
     list-style-type: none;
@@ -58,7 +60,7 @@
 @include mq(Lphone) {
   .nav {
     .open {
-      display: flex;
+      display: none;
     }
   }
   .nav_link {

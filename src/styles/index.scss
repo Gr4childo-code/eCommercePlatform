@@ -37,6 +37,11 @@
   --white-color-shade2: #626276;
 }
 
+html,
+body {
+  position: relative;
+  height: 100%;
+}
 header {
   flex: 0 0 auto;
 }

@@ -21,7 +21,7 @@ const iContextState = {
 export const AppContext = createContext<ContextType>(iContextState);
 
 function App() {
-  const [initialView, setInitialView] = useState<null | string>(null);
+  const [initialView, setInitialView] = useState<null | string>('About');
 
   return (
     <AppContext.Provider value={{ initialView, setInitialView }}>
