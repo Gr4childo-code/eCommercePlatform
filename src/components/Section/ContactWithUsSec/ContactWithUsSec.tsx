@@ -7,7 +7,7 @@ import { useContext, useEffect } from 'react';
 import { AppContext } from '@/app/App';
 import { useInView } from 'react-intersection-observer';
 export const ContactWithUsSec = () => {
-  const { ref, inView } = useInView({ threshold: 1 });
+  const { ref, inView } = useInView({ threshold: 0.7 });
   const { setInitialView } = useContext(AppContext);
 
   useEffect(() => {

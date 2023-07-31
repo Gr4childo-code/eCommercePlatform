@@ -22,7 +22,7 @@ import styles from './AboutUs.module.scss';
 
 export const AboutUs = () => {
   const { ref, inView } = useInView({
-    threshold: 1
+    threshold: 0.5
   });
   const { setInitialView } = useContext(AppContext);
 

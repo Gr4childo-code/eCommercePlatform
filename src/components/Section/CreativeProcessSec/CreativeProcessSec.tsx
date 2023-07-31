@@ -7,7 +7,7 @@ import AnimationMotion from '@/AnimationMotion/AnimationMotion';
 import ManCreativeProcess from '@/assets/CreativeProcess/ManCreativeProcess.svg';
 import styles from './CreativeProcessSec.module.scss';
 const CreativeProcessSec = () => {
-  const { ref, inView } = useInView({ threshold: 0.6 });
+  const { ref, inView } = useInView({ threshold: 0.5 });
   const { setInitialView } = useContext(AppContext);
 
   useEffect(() => {

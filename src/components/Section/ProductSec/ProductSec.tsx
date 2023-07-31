@@ -8,7 +8,7 @@ import Check from '@/assets/Check.svg';
 import AnimationMotion from '@/AnimationMotion/AnimationMotion';
 import styles from './ProductSec.module.scss';
 export const ProductSec = () => {
-  const { ref, inView } = useInView({ threshold: 0.6 });
+  const { ref, inView } = useInView({ threshold: 0.5 });
   const { setInitialView } = useContext(AppContext);
 
   useEffect(() => {
